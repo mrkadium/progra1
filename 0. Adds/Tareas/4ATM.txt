@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Simulador de ATM
+Martes, 09/Agosto/2016
+
+Este programa simula un ATM
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+	int cantidad=0, b20=0, b10=0, b5=0, b1=0;
+	cout << "Escriba la cantidad deseada: ";
+	cin >> cantidad;
+	b20=cantidad/20;
+	b10=(cantidad%20)/10;
+	b5=(cantidad%10)/5;
+	b1=(cantidad%5);
+	cout << "\n\n Billetes de 20: ";
+	cout << b20;
+	cout << "\n Billetes de 10: ";
+	cout << b10;
+	cout << "\n Billetes de 5: ";
+	cout << b5;
+	cout << "\n Billetes de 1: ";
+	cout << b1;
+
+
+	return 0;
+}

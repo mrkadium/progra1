@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de ecuación cuadrática
+Martes, 09/Agosto/2016
+
+Este programa calcula la edad con respecto al año de nacimiento.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+	cout <<"CÁLCULO DE EDAD CON RESPECTO AL AÑO DE NACIMIENTO";
+	int anac, edad;
+	anac=0;
+	edad=0;
+	cout <<"Introduzca el año de nacimiento: ";
+	cin >>anac;
+	edad=2016-anac;
+	cout <<"La edad es: "+anac;
+
+
+	return 0;
+}

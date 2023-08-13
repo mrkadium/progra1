@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de salario neto
+Martes, 09/Agosto/2016
+
+Este programa calcula el salario neto a partir de diversas variables.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	float hora=0, minuto=0, total=0;
+    	cout << "Horas: ";
+	cin >> hora;
+   	cout << "Minutos: ";
+	cin >> minuto;
+	total=0.25*(hora+1);
+	cout << "\n\nTotal a pagar: ";
+	cout << total;
+
+	return 0;
+}

@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1480990690 source:c:\users\soldier4\documents\proyectos de codeblocks\proyecto camioneros\main.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+
+1480999936 source:c:\users\soldier4\documents\proyectos de codeblocks\proyecto camioneros 2\main.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+	"camioneros.h"
+
+1481045666 c:\users\soldier4\documents\proyectos de codeblocks\proyecto camioneros 2\camioneros.h
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+
+1480999936 source:c:\users\soldier4\documents\proyectos de computación\programación i\proyecto camioneros 2\main.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+	"camioneros.h"
+
+1481050626 c:\users\soldier4\documents\proyectos de computación\programación i\proyecto camioneros 2\camioneros.h
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+

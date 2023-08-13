@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1479162107 source:c:\users\soldier4\documents\proyectos de codeblocks\string\convertir de int a char\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<cstdlib>
+	<fstream>
+	<string.h>
+	<windows.h>
+

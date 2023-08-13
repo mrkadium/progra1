@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de salario neto
+Martes, 09/Agosto/2016
+
+Este programa calcula el salario neto a partir de diversas variables.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	int maria=0, pedro=0, juan=0;
+	cout << "Votos dados a Maria: ";
+	cin >> maria;
+	cout << "Votos dados a Pedro: ";
+	cin >> pedro;
+	cout << "Votos dados a Juan: ";
+	cin >> juan;
+	cout << "\nResultado: ";
+	if(maria>pedro && maria>juan){
+		cout << "\nMaria gana";
+	}
+	if(pedro>maria && pedro>juan){
+		cout << "\nPedro gana";
+	}
+	if(juan>maria && juan>pedro){
+		cout << "\nJuan gana";
+	}
+	if(juan<pedro && juan<maria && pedro==maria){
+		cout << "\nEmpate entre Maria y Pedro";
+	}
+	if(juan==pedro && juan>maria && pedro>maria){
+		cout << "\nEmpate entre Juan y Pedro";
+	}
+	if(juan>pedro && juan==maria && pedro<maria){
+		cout << "\nEmpate entre Maria y Pedro";
+	}
+	if(juan==pedro && juan==maria && pedro==maria){
+		cout << "\nTriple empate";
+	}
+
+	return 0;
+}

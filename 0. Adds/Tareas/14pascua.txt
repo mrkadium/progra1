@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de salario neto
+Martes, 09/Agosto/2016
+
+Este programa calcula el salario neto a partir de diversas variables.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	int A=0, a=0, b=0, c=0, d=0, e=0, M=0, N=0, pas1=0, pas2=0, suma=0;
+	cin >> A;
+	M=24;
+	N=5;
+	a=A%19;
+	b=A%4;
+	c=A%7;
+	d=((19*a)+M)%30;
+	e=((2*b)+(4*c)+(6*d)+N)%7;
+	suma=d+e;
+	pas1=d+e+22;
+	pas2=d+e-9;
+	if(suma<10){
+		cout << "La Pascua sera el " << pas1 << " de marzo";
+	}else{
+		if(suma>9){
+			cout << "La Pascua sera el " << pas2 << " de abril";
+		}
+	}
+	if(pas2==26){
+		cout << "La Pascua sera el 19 de abril";
+	}
+	if(pas2==25){
+		cout << "La pascua sera el 18 de abril";
+	}
+
+	return 0;
+}
+

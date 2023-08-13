@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1475628474 source:e:\recursivo\main.cpp
+	<iostream>
+	"calculo.h"
+
+1475628604 e:\recursivo\calculo.h
+

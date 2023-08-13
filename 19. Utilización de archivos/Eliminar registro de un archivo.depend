@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1479160456 source:c:\users\soldier4\documents\proyectos de codeblocks\eliminar registro de un archivo\main.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string.h>
+	<windows.h>
+

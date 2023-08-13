@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de salario neto
+Martes, 09/Agosto/2016
+
+Este programa calcula el salario neto a partir de diversas variables.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	float hora=0, tasa=0, impuesto=0, horax=0, isss=0, afp=0, salario=0, desafp=0, salab=0, salnet=0;
+    	cout << "Número de horas trabajadas (hasta 44 horas): ";
+	cin >> hora;
+	cout << "Tasa de pago por hora: ";
+	cin >> tasa;
+	cout << "Horas extra (mas de 44): ";
+	cin >> horax;
+	if(hora<=44){
+		salario=hora*tasa;
+	}else{
+		salario=hora*tasa+horax*tasa*1.15;
+	}
+	if(salario<300){
+		salab=salario;
+	}else{
+		salab=salario-salario*0.1;
+	}
+	if(salab>= 685.71){
+		isss=20.57;
+	}else{
+		isss=salab*0.03;
+	}
+	cout << "Su afiliación es con: \nCRECER=1 \nCONFIA=2 \n";
+	cin >> afp;
+	if(afp=1){
+		desafp=salab*0.062;
+	}else{
+		desafp=salab*0.065;
+	}
+	salnet=salab-isss-desafp;
+	cout << salnet;
+
+
+
+	return 0;
+}

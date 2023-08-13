@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de ecuación cuadrática
+Martes, 09/Agosto/2016
+
+Este programa calcula la edad con respecto al año de nacimiento.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	float radio=0, altura=0, areal=0, columen=0, areab=0;
+	cout << "Introduzca el valor del radio: ";
+	cin >> radio;
+	cout << "Introduzca el valor de la altura: ";
+	cin >> altura;
+	areal=2*3.1416*radio^2;
+	areab=3.1416*radio^2;
+	volumen=areab*altura;
+	cout << "\nEl area lateral es: " << areal;
+	cout << "\nEl volumen es: " << volumen;
+
+	return 0;
+}

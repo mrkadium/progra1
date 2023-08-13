@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de ecuación cuadrática
+Martes, 09/Agosto/2016
+
+Este programa calcula la ecuación cuadrática
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+	int a, b, c, result1, result2, result3;
+	a=0;
+	b=0;
+	c=0;
+	result1=0;
+	result2=0;
+	result3=0;
+	cout <<"CÁLCULO DE LA ECUACIÓN CUADRÁTICA"\n;
+	cout <<"Introduzca la variable "a": ";
+	cin >>a;
+	cout <<"Introduzca la variable "b": ";
+	cin >>b;
+	cout <<"Introduzca la variable "c": ";
+	cin >>c;
+	result1=((b^2-(4*a*c))^1/2;
+	result2=((-1*b)+result1)/(2*a);
+	result3=((-1*b)-result1)/(2*a);
+	cout <<"X1= "+result2;
+	cout <<"X2= "+result3;
+	
+
+	return 0;
+}

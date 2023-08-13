@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+int main (){
+/*
+Cálculo de salario neto
+Martes, 09/Agosto/2016
+
+Este programa calcula el salario neto a partir de diversas variables.
+
+Mario Adalberto Rivera Olivo
+Ingeniería en Sistemas Computacionales
+Programación I: Grupo 01
+Ing. David Gildardo Rajo Castellanos
+*/
+
+	int dado1=0, dado2=0, dado3=0;
+	cout << "Resultado del primer dado: ";
+	cin >> dado1;
+	cout << "Resultado del segundo dado: ";
+	cin >> dado2;
+	cout << "Resultado del tercer dado: ";
+	cin >> dado3;
+	cout << "\nResultado: ";
+	if(dado1==6 && dado2==6 && dado3==6){
+		cout << "Excelente";
+	}
+	if(dado1==6 && dado2==6 && dado3!=6){
+		cout << "Muy bien";
+	}
+	if(dado1==6 && dado2!=6 && dado3==6){
+		cout << "Muy bien";
+	}
+	if(dado1!=6 && dado2==6 && dado3==6){
+		cout << "Muy bien";
+	}
+	if(dado1!=6 && dado2!=6 && dado3==6){
+		cout << "Regular";
+	}
+	if(dado1!=6 && dado2==6 && dado3!=6){
+		cout << "Regular";
+	}
+	if(dado1==6 && dado2!=6 && dado3!=6){
+		cout << "Regular";
+	}
+	if(dado1!=6 && dado2!=6 && dado3!=6){
+		cout << "Pesimo";
+	}
+
+	return 0;
+}

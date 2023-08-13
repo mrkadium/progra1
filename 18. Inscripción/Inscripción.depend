@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508999593 source:c:\users\soldier4\documents\proyectos de computación\programación iii\clase\inscripción\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
